@@ -12,7 +12,29 @@ public:
     
     Filmi(string t, string z) : titulli(t), zhanri(z) {}
 };
+int main() {
+    cout << "Sistemi i Filmave" << endl;
 
+    // Krijimi i filmit
+    Filmi filmi1("Inception", "Sci-Fi");
+    Filmi filmi2("Titanic", "Romance");
+    Filmi filmi3("The Dark Knight", "Action");
+
+    // Shfaqja e qfare llojit filmi eshte
+    cout << "\nFilmi 1:\n";
+    cout << "Titulli: " << filmi1.titulli << endl;
+    cout << "Zhanri: " << filmi1.zhanri << endl;
+  
+    cout << "\nFilmi 2:\n";
+    cout << "Titulli: " << filmi2.titulli << endl;
+    cout << "Zhanri: " << filmi2.zhanri << endl;
+
+    cout << "\nFilmi 3:\n";
+    cout << "Titulli: " <<filmi3.titulli <<endl;
+    cout << "Zhanri: " << filmi3.zhanri << endl;
+
+    return 0;
+}
 // Funksioni per te shfaqur uleset (Mund te zhvillohet ne branch-in 'feature-seating')
 void shfaqUleset(const vector<vector<int>>& sallat) {
     cout << "\n--- Plani i uleseve (0 = Lire, 1 = Zene) ---\n";
