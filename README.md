@@ -11,9 +11,7 @@ Programi lejon menaxhimin e thjeshtë të një kinemaje, duke përfshirë listim
 
 ## Si të ekzekutohet
 1. Klononi repository: `git clone [https://github.com/saramaliqi/Grupi_67.git]`
-2. Kompajloni kodin: `g++ main.cpp -o kinemaja`
-3. Ekzekutoni programin: `./kinemaja`
-
+   
 ## Workflow i përdorur
 Ne kemi përdorur **GitFlow** të thjeshtuar:
 - `main` branch për versionin final.
