@@ -18,4 +18,4 @@ Programi lejon menaxhimin e thjeshtë të një kinemaje, duke përfshirë listim
 Ne kemi përdorur **GitFlow** të thjeshtuar:
 - `main` branch për versionin final.
 - `feature-` branches për zhvillimin e moduleve.
-- **Pull Requests** për çdo bashkim kodi (merge).
+- **Pull Requests** për qdo bashkim kodi(merge).
